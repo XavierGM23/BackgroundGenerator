@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgorund Gen</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body id="gradient">
+    <div class="container">
+        <h1>Background Generator</h1>
+
+        <h2>1. First select your gradient direction</h2>
+        <select name="sel1" id="selector" onchange="myNewFunction(this)">
+            <option>to righ</option>
+            <option>to left</option>
+            <option>to top</option>
+            <option>to bottom</option>
+            <option>to top right</option>
+            <option>to top left</option>
+            <option>to bottom right</option>
+            <option>to bottom left</option>
+        </select>
+
+        <h2>2. Second select your color</h2>
+
+        Color 1: <input class="color1" type="color" name="color1" value="#00ff00">
+        Color 2: <input class="color2" type="color" name="color2" value="#0000ff">
+
+        <div class="current">
+            <h2>Current CSS Background</h2>
+            <h3>Here is going to be your code!</h3>
+        </div>
+
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

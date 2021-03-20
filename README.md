@@ -1,2 +1,0 @@
-# BackgroundGenerator
-Background CSS/JS
