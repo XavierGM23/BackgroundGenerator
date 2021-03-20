@@ -9,10 +9,12 @@ body {
     cursive;
     color: white;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 #gradient {
-    background-color: red;
+     background-color: red;
 }
 
 .container {
@@ -27,15 +29,19 @@ h2, h3 {
 }
 
 h1{
-    font-size: 5vw;
+    font-size: 3rem;
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 1rem;
+}
+
+p {
+    font-size: 2rem;
 }
 
 
@@ -45,12 +51,24 @@ h3 {
 }
 input {
     align-self: center;
+
 }
 
+span {
+    font-size: 1.5rem;
+    margin: auto 1rem;
+}
 .current {
     background-color:#19A6FF;
     margin: 2rem;
     border-radius: 25px;
+}
+
+.selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #selector {
