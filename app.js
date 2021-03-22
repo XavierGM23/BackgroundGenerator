@@ -1,13 +1,20 @@
+var _ = require('lodash');
+
+console.log(_);
+
 var css = document.querySelector("h3");
 var col1 = document.querySelector(".color1");
 var col2 = document.querySelector(".color2");
 
 var body = document.getElementById("gradient");
 
+var array = [1,2,3,4,5,6];
+console.log('answer', _.without(array, 4));
+
 // console.log(css);
 // console.log(col1);
 // console.log(col2);
-console.log(body);
+// console.log(body);
 
 var selected = "";
 
