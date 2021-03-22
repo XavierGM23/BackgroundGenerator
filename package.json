@@ -1,0 +1,19 @@
+{
+  "name": "backgroundgenerator",
+  "version": "1.0.0",
+  "description": "BackgroundGenerator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XavierGM23/BackgroundGenerator.git"
+  },
+  "author": "Xavier Guzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XavierGM23/BackgroundGenerator/issues"
+  },
+  "homepage": "https://github.com/XavierGM23/BackgroundGenerator#readme"
+}
